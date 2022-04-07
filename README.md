@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# [QSCode - CodeEditor](https://qscode-code-editor.herokuapp.com/) 
+- **`Real Time Multi Client`** Code Editor Application with **`Room`** facility.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- **`Live Code Sharing Platform`** where **`Programmers can join different Rooms`** and **`Code together with their partners`**.
+ 
+- Application provides an interface for multiple Programmers coding at the same time in a same room.
 
-## Available Scripts
+## Technologies Used : 
+- FrontEnd :- **`React.js`**
+- BackEnd :- **`Node.js`, `Express.js`**
+- Used **`Socket.io`** that enables realtime, bi-directional communication between web clients and servers.
 
-In the project directory, you can run:
+## Functions of QSCode :
+- If Programmer have a room Id then join through that room Id, Else create a new room having unique Room Id.
+- When a new Programmer joins the chat, it will notify all other Programmers in corresponding room.
+- QSCode also shows all active Programmers in corresponding room.
+- When a Programmer codes in a room, it will broadcast to all other Programmers in same room.
+- When a Programmer lefts the room, it will notify all other Programmers in corresponding room.
 
-### `npm start`
+## LINK : 
+- https://qscode-code-editor.herokuapp.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo :
+- **Home Page of QSCode :**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot (6558)](https://user-images.githubusercontent.com/80086654/162247538-e186eb96-58c9-4412-a93a-b94d4b447246.png)
 
-### `npm test`
+#
+### Room 1 with 2 Programmers :
+#### Programmer 1 : Rohit & Programmer 2 : Raushan
+![Screenshot (6560)](https://user-images.githubusercontent.com/80086654/162247604-af61affb-611f-4ea8-8e86-b20cd43fd604.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#
+### Room 1 with 3 Programmers :
+#### Programmer 1 : Rohit , Programmer 2 : Raushan & Programmer 3 : Rahul
+![Screenshot (6561)](https://user-images.githubusercontent.com/80086654/162247734-afe3d7d0-3972-4d51-9426-fec15a8c3d19.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
